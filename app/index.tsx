@@ -2,6 +2,7 @@ import * as React from 'react';
 import { View, Text, useWindowDimensions, ScrollView } from 'react-native';
 import { TabView, SceneMap } from 'react-native-tab-view';
 import { StyleSheet } from 'react-native-unistyles';
+import TabBar from './tabBar';
 
 const ITEM_COUNT = 300;
 
