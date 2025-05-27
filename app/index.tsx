@@ -59,6 +59,7 @@ const Index = () => {
   return (
     <View style={styles.container}>
       <TabView
+        renderTabBar={(props) => <TabBar {...props} />}
         navigationState={{ index, routes }}
         renderScene={renderScene}
         onIndexChange={setIndex}
